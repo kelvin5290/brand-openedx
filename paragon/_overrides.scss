@@ -1,13 +1,14 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
-.btn-brand .btn-brand:hover{
+.btn-primary:hover
+.btn-primary
+.btn-brand:hover
+.btn-brand {
     background-color: rgb(56, 170, 149);
     border-color: rgb(56, 170, 149);
 }
-.btn-primary{
-    background-color: rgb(56, 170, 149);
-    border-color: rgb(56, 170, 149);
-}
+
+
 .align-middle{
     box-decoration-break:clone;
 }
